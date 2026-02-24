@@ -1,0 +1,554 @@
+[
+  {
+    "name": "Beata Mirkowska",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Jarek Mirkowski",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Hania Mirkowska",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Michal Mirkowski",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Kasia Biernaczyk",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Grzesiek Biernaczyk",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Zuza Biernaczyk",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "La Mama",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Ale",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Tio Conrado",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Aga's Grandma",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Mira Ficek",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Wojtek Ficek",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Wojtek Filipek",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Lidka Wielgosz-Filipek",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Ola Marciniak",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Maja",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Monia Chodak",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Aga Jastrzębska",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Luis Macongo de Jesus",
+    "email": null,
+    "language": "English",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Angie Młocek",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Łukasz Walankiewicz",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Fer Corcio",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Marcela",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Rodrigo Corcio",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Pablo Duran",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Zuly Chavez",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Carmen Merida",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Daniel Abrego",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Rodolfo Garcia",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Alejandra",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Gabriela (Nico)",
+    "email": null,
+    "language": "English",
+    "side": "Shared",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Nico Komvos",
+    "email": null,
+    "language": "English",
+    "side": "Shared",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Kike",
+    "email": null,
+    "language": "Spanish",
+    "side": "Shared",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Terka",
+    "email": null,
+    "language": "Spanish",
+    "side": "Shared",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Frank Lopez",
+    "email": null,
+    "language": "Spanish",
+    "side": "Shared",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Alex Minich",
+    "email": null,
+    "language": "English",
+    "side": "Shared",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Ricardo Monge",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Elvis Monge",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Norma Bonilla",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Andrea Monge",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Cesar Lainez",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Tina",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Waldek",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Pawel",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Franek",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Zosia",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Maciek",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Ada",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Familia"
+  },
+  {
+    "name": "Mlada",
+    "email": null,
+    "language": "Spanish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Gonzo",
+    "email": null,
+    "language": "Spanish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Mati",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Claudi",
+    "email": null,
+    "language": "English",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Claudi +",
+    "email": null,
+    "language": "English",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Bee",
+    "email": null,
+    "language": "English",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Marcelo Magana",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Abraham Rivera",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Natalia Rivera",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Luis Luarca",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Alejandra Luarca",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Raul Garcia",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "David Hernandez",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Mario Martinez",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Alejandra Marchesini",
+    "email": null,
+    "language": "Spanish",
+    "side": "Groom",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Nico (parce)",
+    "email": null,
+    "language": "Spanish",
+    "side": "Shared",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Hugo Picasso",
+    "email": null,
+    "language": "Spanish",
+    "side": "Shared",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Sonia",
+    "email": null,
+    "language": "English",
+    "side": "Shared",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Oliwia",
+    "email": null,
+    "language": "Polish",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  },
+  {
+    "name": "Martin",
+    "email": null,
+    "language": "English",
+    "side": "Bride",
+    "status": "pending",
+    "relation": "Amigos"
+  }
+]
