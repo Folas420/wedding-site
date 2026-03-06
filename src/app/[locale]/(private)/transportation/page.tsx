@@ -13,22 +13,19 @@ export default function TransportationPage() {
             name: "Poznań Airport",
             code: "POZ",
             time: t("pozDetail"),
-            link: "https://www.google.com/flights?q=flights+to+POZ",
-            image: "https://lh3.googleusercontent.com/p/AF1QipOpYwrgqWQiOsWBx5aufuyjooCyslBBXV6l9iez=w1099-h1000-k-no"
+            image: "images/how-to-get-there/poznan.png"
         },
         {
             name: "Port Lotniczy Wrocław S.A.",
             code: "WRO",
             time: t("wroDetail"),
-            link: "https://www.google.com/flights?q=flights+to+WRO",
-            image: "https://lh3.googleusercontent.com/p/AF1QipNp-pcFlF93mHyrMeBt50beAHW42GfAGBFyHILd=w1497-h1000-k-no"
+            image: "images/how-to-get-there/wroclaw.png"
         },
         {
             name: "Berlin Brandenburg Airport",
             code: "BER",
             time: t("berDetail"),
-            link: "https://www.google.com/flights?q=flights+to+BER",
-            image: "https://lh3.googleusercontent.com/p/AF1QipOcQxn3ilJUdre4k0zpE1ZCFfOxfg_7LKfIVde3=w1500-h1000-k-no"
+            image: "images/how-to-get-there/berlin.png"
         }
     ];
 
@@ -159,7 +156,7 @@ export default function TransportationPage() {
                         >
                             <div className="relative h-[200px] overflow-hidden">
                                 <Image
-                                    src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepO6bTWVySgKyk56fY7FEm3mV4Q1KInMiJcnzHSbB9NRA6v5qayw3ykqoxXn9pbDGwOVxaUTI-v-gWVsHDqFq9PBWQp_YzmwfWoBx2KSlveuadjqIHuYgvhVhjU9yr5nOCFbc8MXA=w1333-h1000-k-no"
+                                    src="images/how-to-get-there/zielona-gora.png"
                                     alt="Warsaw Chopin Airport to Zielona Góra"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -240,3 +237,4 @@ export default function TransportationPage() {
         </div>
     );
 }
+
