@@ -14,7 +14,7 @@ export async function savePollResponse(formData: {
 }) {
     const { error } = await supabase
         .from('poll_responses')
-        .insert([
+        .upsert([
             {
                 guest_name: formData.guest_name,
                 dietary: formData.dietary,
@@ -23,7 +23,8 @@ export async function savePollResponse(formData: {
                 alcohol: formData.alcohol,
                 accommodation_pref: formData.accommodation_pref,
                 stay_pref: formData.stay_pref
-            }
+            },
+            { onConflict: 'guest_name' }
         ]);
 
     if (error) {
