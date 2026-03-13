@@ -23,9 +23,10 @@ export async function savePollResponse(formData: {
                 alcohol: formData.alcohol,
                 accommodation_pref: formData.accommodation_pref,
                 stay_pref: formData.stay_pref
-            },
-            { onConflict: 'guest_name' }
-        ]);
+            }
+                ],
+                { onConflict: 'guest_name' }
+                );
 
     if (error) {
         console.error("Error saving poll response:", error);
