@@ -67,20 +67,20 @@ export default function DetailsPage() {
 
                         <div className="space-y-12">
                             {schedule.map((event, index) => {
-                                // Dynamic link parsing for "Cafe Noir"
+                                // Dynamic link parsing for "Jazzgot"
                                 const renderDescription = (text: string) => {
-                                    if (text.includes("Cafe Noir")) {
-                                        const parts = text.split("Cafe Noir");
+                                    if (text.includes("Jazzgot")) {
+                                        const parts = text.split("Jazzgot");
                                         return (
                                             <>
                                                 {parts[0]}
                                                 <a
-                                                    href="http://maps.google.com/?q=Cafe+Noir+Zielona+Gora"
+                                                    href="https://maps.app.goo.gl/7LLCSf7bjeEAegff6" 
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     className="text-gold font-bold hover:underline inline-flex items-center gap-1"
                                                 >
-                                                    Cafe Noir
+                                                    Jazzgot (Miasto food & friends)
                                                     <MapPin size={14} />
                                                 </a>
                                                 {parts[1]}
