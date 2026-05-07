@@ -4,7 +4,10 @@
         "subtitle": "¡Nos casamos!",
         "description": "Bienvenidos a nuestra web de boda. Estamos muy felices de compartir este día especial con vosotros.",
         "details_date": "26 de agosto de 2026",
-        "details_location": "Bogaczów, Polonia"
+        "details_location": "Bogaczów, Polonia",
+        "alreadyRSVP": "¿Ya confirmaste? Accede aquí",
+        "welcomeBack": "¡Bienvenido de nuevo, {name}! Redirigiendo...",
+        "emailError": "Correo no encontrado. Por favor, verifica o confirma tu asistencia primero."
     },
     "Nav": {
         "home": "Inicio",
