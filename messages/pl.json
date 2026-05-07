@@ -4,7 +4,10 @@
         "subtitle": "Bierzemy ślub!",
         "description": "Witaj na naszej stronie ślubnej. Bardzo się cieszymy, że możemy dzielić z Wami ten wyjątkowy dzień.",
         "details_date": "26 sierpnia 2026",
-        "details_location": "Bogaczów, Polska"
+        "details_location": "Bogaczów, Polska",
+        "alreadyRSVP": "Już potwierdziłeś? Wejdź tutaj",
+        "welcomeBack": "Witaj ponownie, {name}! Przekierowywanie...",
+        "emailError": "Nie znaleziono e-maila. Sprawdź go lub najpierw potwierdź obecność."
     },
     "Nav": {
         "home": "Strona główna",
