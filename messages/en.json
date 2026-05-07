@@ -4,7 +4,10 @@
     "subtitle": "We are getting married!",
     "description": "Welcome to our wedding website. We are so happy to share this special day with you.",
     "details_date": "26th of August 2026",
-    "details_location": "Bogaczów, Poland"
+    "details_location": "Bogaczów, Poland",
+    "alreadyRSVP": "Already confirmed? Access here",
+    "welcomeBack": "Welcome back, {name}! Redirecting you...",
+    "emailError": "Email not found. Please check or RSVP first."
   },
   "Nav": {
     "home": "Home",
