@@ -80,7 +80,7 @@ export default function DetailsPage() {
                                                     rel="noopener noreferrer"
                                                     className="text-gold font-bold hover:underline inline-flex items-center gap-1"
                                                 >
-                                                    Jazzgot (Miasto food & friends)
+                                                    Jazzgot
                                                     <MapPin size={14} />
                                                 </a>
                                                 {parts[1]}
