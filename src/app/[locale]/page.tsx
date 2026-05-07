@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import CountdownTimer from "@/components/CountdownTimer";
+import WelcomeBackForm from "@/components/WelcomeBackForm";
 
 export default function HomePage() {
   const t = useTranslations("Index");
@@ -39,13 +40,14 @@ export default function HomePage() {
             <CountdownTimer targetDate="2026-08-26T16:00:00" />
           </div>
 
-          <div className="pt-4">
+          <div className="pt-4 flex flex-col items-center w-full">  
             <Link
               href="/rsvp"
               className="inline-block px-10 py-4 md:px-12 md:py-5 bg-gold text-white rounded-full font-bold text-lg md:text-xl uppercase tracking-widest shadow-xl hover:bg-burgundy-deep hover:scale-105 transition-all duration-300 transform"
             >
               RSVP
             </Link>
+            <WelcomeBackForm />
           </div>
         </div>
       </div>
