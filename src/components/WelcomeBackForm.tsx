@@ -24,12 +24,15 @@ export default function WelcomeBackForm() {
     const result = await loginWithEmail(email);
 
     if (result.success) {
-      setStatus("success");
-      setMessage(t("welcomeBack", { name: result.name }));
-      setTimeout(() => {
-        router.push("/poll");
-      }, 2000);
-    } else {
+     localStorage.setItem("guest_name", result.name);
+
+     setStatus("success");
+     setMessage(t("welcomeBack", { name: result.name }));
+  
+    setTimeout(() => {
+    router.push(`/${result.redirectTo}`);
+  }, 2000);
+} else {
       setStatus("error");
       setMessage(t("emailError"));
     }
@@ -54,7 +57,7 @@ export default function WelcomeBackForm() {
               placeholder="Email address"
               required
               disabled={status === "loading" || status === "success"}
-              className="w-full px-4 py-3 rounded-full border border-burgundy-deep/20 bg-white/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-gold/50 transition-all text-burgundy-deep placeholder:text-burgundy-deep/40"
+              className="w-full px-4 pr-16 py-3 rounded-full border border-burgundy-deep/20 bg-white/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-gold/50 transition-all text-burgundy-deep placeholder:text-burgundy-deep/40"
             />
             <button
               type="submit"
