@@ -5,7 +5,7 @@ import { NextRequest, NextResponse } from 'next/server';
 const intlMiddleware = createMiddleware(routing);
 
 // List of private routes (excluding the locale prefix)
-const privateRoutes = ['/accommodation', '/transportation', '/poll', '/dictionary'];
+const privateRoutes = ['/accommodation', '/transportation', '/poll', '/dictionary','/details'];
 
 export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
@@ -19,10 +19,12 @@ export default function middleware(request: NextRequest) {
     const isPrivate = privateRoutes.some(route => relativePath.startsWith(route));
 
     if (isPrivate) {
-        const guestEmail = request.cookies.get('guest_email');
+        // Check for both the RSVP cookie and the Welcome Back cookie
+        const hasRSVP = request.cookies.get('rsvp_completed');
+        const hasAuth = request.cookies.get('guest_auth');
 
-        // If no email cookie, redirect to RSVP page of the current locale
-        if (!guestEmail) {
+        // If neither cookie exists, redirect to RSVP page of the current locale
+        if (!hasRSVP && !hasAuth) {
             const url = request.nextUrl.clone();
             url.pathname = `/${locale}/rsvp`;
             return NextResponse.redirect(url);
