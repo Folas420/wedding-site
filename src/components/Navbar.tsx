@@ -6,7 +6,9 @@ import MobileMenu from "./MobileMenu";
 
 export default async function Navbar() {
     const t = await getTranslations("Nav");
-    const isAuthenticated = (await cookies()).has("guest_email");
+    // Check for both possible authentication cookies
+    const cookieStore = await cookies();
+    const isAuthenticated = cookieStore.has("rsvp_completed") || cookieStore.has("guest_auth");
 
     const publicLinks = [
         { href: "/", label: t("home") },
