@@ -7,16 +7,28 @@ export async function loginWithEmail(email: string) {
   const sanitizedEmail = email.toLowerCase().trim();
 
   try {
-    const { data, error } = await supabase
+    const { data: rsvpData, error: rsvpError } = await supabase
       .from("rsvp_responses")
-      .select("guest_name, email")
+      .select("guest_name")
       .eq("email", sanitizedEmail)
       .single();
 
-    if (error || !data) {
+    if (rsvpError || !rsvpData) {
       return { success: false, error: "Email not found" };
     }
 
+    const guestName = rsvpData.guest_name;
+    // 2. Check if this guest_name exists in poll_responses
+    // We use .limit(1) as a safety check, though your names are unique
+    const { data: pollData } = await supabase
+    .from("poll_responses")
+    .select("guest_name")
+    .eq("guest_name", guestName)
+    .maybeSingle();
+
+    // If pollData is not null, they've already finished the poll
+    const hasFinishedPoll = !!pollData;
+    
     // Set guest_auth cookie for 60 days
     const cookieStore = await cookies();
     cookieStore.set("guest_auth", sanitizedEmail, {
@@ -27,7 +39,7 @@ export async function loginWithEmail(email: string) {
       sameSite: "lax",
     });
 
-    return { success: true, name: data.guest_name };
+    return { success: true, name: guestName , redirectTo: hasFinishedPoll ? 'details' : 'poll' };
   } catch (error) {
     console.error("Login Error:", error);
     return { success: false, error: "An unexpected error occurred" };
